@@ -42,7 +42,7 @@ As for reflection, no matter what language you use (including Go), it is dynamic
 
 As for business logic and dependency injection, using reflection is a very bad idea, anything can happen with dynamic typing, it's better to have it locked down static and strong typing.
 
-Also because Go is compiled, you don't need to use yml or xml, otherwise you'll just end up adding complexity, so my advice, don't do it.  I have json but only for configuration,  because obviously it's usualy a bad idea to hard code configuration.
+Also because Go is compiled, you don't need to use yml or xml, otherwise you'll just end up adding complexity, so my advice, don't do it.  I have used json but only for configuration,  because obviously it's usualy a bad idea to hard code configuration.
 
 ## Demo
 
