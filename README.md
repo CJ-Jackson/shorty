@@ -10,7 +10,7 @@ It's also a good opportunity to showcase my libraries I have built in [cjtoolkit
 *  [The working prototype version of form 3.0](https://github.com/cjtoolkit/form/tree/epic/form_three)
     * Automated form validation, it's doesn't do rendering, like it did in the previous version, it's was a nightmare to maintain.  I think it's better that the end  user build the template themselves.
 *  [cli](https://github.com/cjtoolkit/cli)
-    * Command Line Interface Builder inspired by [Symfonys' Console Component](http://symfony.com/doc/current/components/console/introduction.html), is uses pointers and transformers.
+    * Command Line Interface Builder inspired by [Symfonys' Console Component](http://symfony.com/doc/current/components/console/introduction.html), it's uses pointers and transformers.
 *  [context](https://github.com/cjtoolkit/context)
     * An user context holder, it's uses gos' net/http ResponseWriter interface as a trojan horse, just to avoid using a centralised hash table and mutual exclusion (which may cause scalability issues).
 *  [groot](https://github.com/cjtoolkit/groot)
