@@ -28,7 +28,7 @@ It's took me about a week, well I'm employed and I took my sweet little time tes
 
 ## Why did you build the mocks manually? Rather than have than it done automatically as it is in phpspec?
 
-I built my own mock manually because I find it nice to have full control over the flow, I even manage to test the html output elegantly and yes I have made use of asynchronous programing and channels, I only have to worry about what method is actually going to get called, as for the method that get called while it was not suppose to, will cause a deadlock (because channels block), Go is very good at detected that and will throw a stack trace and that how I find out.  It's that simple.
+I built my own mock manually because I find it nice to have full control over the flow, I even manage to test the html output elegantly and yes I have made use of asynchronous programing and channels, I only have to worry about what method is actually going to get called, as for the method that get called while it was not suppose to, will cause a deadlock (because channels block), Go is very good at detecting that and will throw a stack trace and that how I find out.  It's that simple.
 
 ## Any other usage of asynchronous programming?
 
