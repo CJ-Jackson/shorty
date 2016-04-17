@@ -50,8 +50,6 @@ Can be found at https://shorty.cj-jackson.com
 
 ## Installation
 
-Trusting you got the golang tooling setup.
-
 *  First you need to prepare the configuration. Copy and paste (and make adjustment) the below to either `/home/username/.shorty/parameters.json` (Unix) or `C:\Users\Username\.shorty\parameters.json` (Windows)
 
 ```json
