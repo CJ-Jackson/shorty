@@ -36,7 +36,7 @@ I have used it to convert middleware into a easy to manage dependency, for depen
 
 ## What approach did you take with dependency injection?
 
-It's quite simple, yet clever.  It's just serial of hierarchical function calls, each of those function building a data struct (or constructing an object in PHP terms) and than returning the struct; It's does the entire thing without reflection (which is slow) and caching (which comes at the cost of complexity), plus because it's pure Go you get the added benefit of compilation time type checking, as Go is strongly and statically type, which is a good thing, a compilation time error is more likely to happen in the development environment, but less likely to happen to production environment.
+It's quite simple, yet clever.  It's just series of hierarchical function calls, each of those function building a data struct (or constructing an object in PHP terms) and than returning the struct; It's does the entire thing without reflection (which is slow) and caching (which comes at the cost of complexity), plus because it's pure Go you get the added benefit of compilation time type checking, as Go is strongly and statically type, which is a good thing, a compilation time error is more likely to happen in the development environment, but less likely to happen to production environment.
 
 As for reflection, no matter what language you use (including Go), it is dynamically type, it's does the type checking at run time, but it's does have it's benefits, for example html template, serialization and testing.
 
