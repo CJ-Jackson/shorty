@@ -18,7 +18,7 @@ It's also a good opportunity to showcase my libraries I have built in [cjtoolkit
 
 ## Why use Google Go?
 
-Because I like it, it's very simplest, the fact that it's does not provide elegant on silver plate like for example Haskell and Lisp does,  so therefore I'm forced to be inventive with my code and I really like that.  If you want elegant on a silver plate, I'm not going to judge.  PHP is kinda like Go in that sense.
+Because I like it, it's very simplistic, the fact that it's does not provide elegant on silver plate like for example Haskell and Lisp does,  so therefore I'm forced to be inventive with my code and I really like that.  If you want elegant on a silver plate, I'm not going to judge.  PHP is kinda like Go in that sense.
 
 The other thing I like about Google Go, it call do asynchronous programing without the ridiculous callbacks like it's does with JavaScript (and node.JS), instead I use channels to to keep asynchronous programming under control and I can even catch the errors with channels, just think of channels as a high level version of mutual exclusion.
 
