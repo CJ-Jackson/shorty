@@ -1,0 +1,86 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"path": "github.com/cjtoolkit/cli",
+			"revision": "7ce3d336bd2c0d9ed0ce77cbeddd855f995fbc2c",
+			"revisionTime": "2016-04-03T15:46:51+01:00"
+		},
+		{
+			"path": "github.com/cjtoolkit/cli/arguments",
+			"revision": "7ce3d336bd2c0d9ed0ce77cbeddd855f995fbc2c",
+			"revisionTime": "2016-04-03T15:46:51+01:00"
+		},
+		{
+			"path": "github.com/cjtoolkit/cli/options",
+			"revision": "7ce3d336bd2c0d9ed0ce77cbeddd855f995fbc2c",
+			"revisionTime": "2016-04-03T15:46:51+01:00"
+		},
+		{
+			"path": "github.com/cjtoolkit/context",
+			"revision": "c192b46481613b5325f46697b2580f979cd2ed1e",
+			"revisionTime": "2016-04-13T20:42:03+01:00"
+		},
+		{
+			"path": "github.com/cjtoolkit/context/context_mock",
+			"revision": "c192b46481613b5325f46697b2580f979cd2ed1e",
+			"revisionTime": "2016-04-13T20:42:03+01:00"
+		},
+		{
+			"path": "github.com/cjtoolkit/form",
+			"revision": "d2bd8dc0fb294311561dde1e8c60b293fcd2c2a7",
+			"revisionTime": "2016-04-11T20:13:12+01:00"
+		},
+		{
+			"path": "github.com/cjtoolkit/form/fields",
+			"revision": "d2bd8dc0fb294311561dde1e8c60b293fcd2c2a7",
+			"revisionTime": "2016-04-11T20:13:12+01:00"
+		},
+		{
+			"path": "github.com/cjtoolkit/form/form_mock",
+			"revision": "e2b5e54de62591c4dbd3c24a705b38ac711d66f0",
+			"revisionTime": "2016-04-14T20:49:01+01:00"
+		},
+		{
+			"path": "github.com/cjtoolkit/groot",
+			"revision": "cf32dc28bc184509e4c84ae301e6468387964563",
+			"revisionTime": "2016-04-04T20:46:38+01:00"
+		},
+		{
+			"path": "github.com/cjtoolkit/mock",
+			"revision": "7c6eb52de79f6ede4080d8de6a39e4857d7d3239",
+			"revisionTime": "2016-04-13T18:20:35+01:00"
+		},
+		{
+			"path": "github.com/gorilla/csrf",
+			"revision": "58276522e5876c9497f406c0212e46f8c7b9999d",
+			"revisionTime": "2016-04-14T08:59:25-07:00"
+		},
+		{
+			"path": "github.com/gorilla/securecookie",
+			"revision": "8dacca26977607e637262eb66b15b7d39f2d3009",
+			"revisionTime": "2016-02-26T13:31:13-08:00"
+		},
+		{
+			"path": "gopkg.in/mgo.v2",
+			"revision": "b6e2fa371e64216a45e61072a96d4e3859f169da",
+			"revisionTime": "2016-02-23T08:38:14-05:00"
+		},
+		{
+			"path": "gopkg.in/mgo.v2/bson",
+			"revision": "b6e2fa371e64216a45e61072a96d4e3859f169da",
+			"revisionTime": "2016-02-23T08:38:14-05:00"
+		},
+		{
+			"path": "gopkg.in/mgo.v2/internal/sasl",
+			"revision": "b6e2fa371e64216a45e61072a96d4e3859f169da",
+			"revisionTime": "2016-02-23T08:38:14-05:00"
+		},
+		{
+			"path": "gopkg.in/mgo.v2/internal/scram",
+			"revision": "b6e2fa371e64216a45e61072a96d4e3859f169da",
+			"revisionTime": "2016-02-23T08:38:14-05:00"
+		}
+	]
+}
