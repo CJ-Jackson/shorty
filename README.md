@@ -56,7 +56,7 @@ Also because Go is compiled, you don't need to use yml or xml for dependency inj
 
 * [PHPStorm](https://www.jetbrains.com/phpstorm/) with the [Golang Plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin)
 
-It's awesome, I did use Sublime Text with Gosublime once, but the thing is I have to keep running `go install` in the terminal just for the sake of auto-complete, that a pace breaker.  So I decided to use PHPStorm with the plugin, and I don't that issue anymore.  Also I love being able to run the test within the IDE, it's sooo satisfying.  They recently added support [go fmt](https://blog.golang.org/go-fmt-your-code), which is Go counterpart to [php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) and I can now run that in the IDE.  It's auto-import in the same way it's does auto-namespace in PHP!  Why PHPStorm? Because I use it at work. :D
+It's awesome, I did use Sublime Text with Gosublime once, but the thing is I have to keep running `go install` in the terminal just for the sake of auto-complete, that a pace breaker.  So I decided to use PHPStorm with the plugin, and I don't that issue anymore.  Also I love being able to run the test within the IDE, it's sooo satisfying.  They recently added support for [go fmt](https://blog.golang.org/go-fmt-your-code), which is Go counterpart to [php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) and I can now run that in the IDE.  It's auto-import in the same way it's does auto-namespace in PHP!  Why PHPStorm? Because I use it at work. :D
 
 You can use the community version of [IntelliJ](https://www.jetbrains.com/idea/?fromMenu) (it's free) with the Golang Plugin.
 
