@@ -62,7 +62,7 @@ You can use the community version of [IntelliJ](https://www.jetbrains.com/idea/?
 
 * [Robomongo](https://robomongo.org/)
 
-Just give that try, it's awesome.
+Just give that a try, it's awesome.
 
 ## Demo
 
