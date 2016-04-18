@@ -32,7 +32,7 @@ The other thing I like about Google Go, it call do asynchronous programing witho
 
 It's took me about a week, well I'm employed and I took my sweet little time testing the project, I even built my own mock manually. (It's not as bad as writing dependency injection in yml, or worse xml)
 
-I'm very serious about getting things right the first time, I did not want to rush.
+I'm very serious about getting things right the first time, I do not want to rush.
 
 ## Why did you build the mocks manually? Rather than have than it done automatically as it is in phpspec?
 
