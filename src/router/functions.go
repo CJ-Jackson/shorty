@@ -18,6 +18,14 @@ func init() {
 }
 
 func SetUpShortyFileServers() {
+	killSwitchSync.Lock()
+	defer killSwitchSync.Unlock()
+
+	if killSwitch {
+		return
+	}
+	killSwitch = true
+
 	router.Router.ServeFiles("/static/*filepath", http.Dir(parameters.GetShortyParameters().FilePath))
 }
 

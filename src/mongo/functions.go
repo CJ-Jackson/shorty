@@ -7,8 +7,16 @@ import (
 )
 
 func InitShortyMongoDb() {
+	killSwitchSync.Lock()
+	defer killSwitchSync.Unlock()
+
+	if killSwitch {
+		return
+	}
+	killSwitch = true
+
 	var err error
 	session, err = mgo.Dial(parameters.GetShortyParameters().MongoDial)
-	session.SetMode(mgo.Monotonic, true)
 	common.CheckError(err)
+	session.SetMode(mgo.Monotonic, true)
 }

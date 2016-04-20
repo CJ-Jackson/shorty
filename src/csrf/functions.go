@@ -9,6 +9,14 @@ import (
 )
 
 func InitShortyCsrf() {
+	killSwitchSync.Lock()
+	defer killSwitchSync.Unlock()
+
+	if killSwitch {
+		return
+	}
+	killSwitch = true
+
 	csrfSystem = csrf.Protect(
 		[]byte(parameters.GetShortyParameters().CsrfKey),
 		csrf.ErrorHandler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {

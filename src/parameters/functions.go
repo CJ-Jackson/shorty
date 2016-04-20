@@ -7,6 +7,14 @@ import (
 )
 
 func InitShortyParameters() {
+	killSwitchSync.Lock()
+	defer killSwitchSync.Unlock()
+
+	if killSwitch {
+		return
+	}
+	killSwitch = true
+
 	file, err := os.Open(getHomePath() + SETTING_FILE_LOCATION[1:])
 	common.CheckError(err)
 
