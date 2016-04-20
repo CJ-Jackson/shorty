@@ -22,7 +22,7 @@ func SetUpShortyFileServers() {
 	defer killSwitchSync.Unlock()
 
 	if killSwitch {
-		return
+		panic("'SetUpShortyFileServers' can only be called once")
 	}
 	killSwitch = true
 

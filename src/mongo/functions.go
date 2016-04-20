@@ -11,7 +11,7 @@ func InitShortyMongoDb() {
 	defer killSwitchSync.Unlock()
 
 	if killSwitch {
-		return
+		panic("'InitShortyMongoDb' can only be called once")
 	}
 	killSwitch = true
 

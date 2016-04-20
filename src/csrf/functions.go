@@ -13,7 +13,7 @@ func InitShortyCsrf() {
 	defer killSwitchSync.Unlock()
 
 	if killSwitch {
-		return
+		panic("'InitShortyCsrf' can only be called once.")
 	}
 	killSwitch = true
 

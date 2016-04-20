@@ -11,7 +11,7 @@ func InitShortyParameters() {
 	defer killSwitchSync.Unlock()
 
 	if killSwitch {
-		return
+		panic("'InitShortyParameters' can only be called once")
 	}
 	killSwitch = true
 
