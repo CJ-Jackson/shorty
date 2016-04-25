@@ -29,7 +29,7 @@ var indexActionBodyHtml = html.Must(html.New("indexActionBodyHtml").Parse(`
 	</div>
 </div>
 {{- .Flash -}}
-<form method="post" novalidate>
+<form method="post">
 	{{- .Csrf.Field -}}
 	{{ .UrlForm.GetHtml }}
 	<input class="form-control" type="submit" value="Submit">
