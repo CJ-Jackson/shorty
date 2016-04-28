@@ -10,7 +10,6 @@ import (
 )
 
 type UrlForm struct {
-	fields []form.FormFieldInterface
 	tpl    *html.Template
 
 	UrlModel string
@@ -25,21 +24,8 @@ func NewUrlForm() *UrlForm {
 }
 
 func (u *UrlForm) Fields() []form.FormFieldInterface {
-	u.fields = u.createFields()
-	return u.fields
-}
-
-func (u *UrlForm) createFields() []form.FormFieldInterface {
 	return []form.FormFieldInterface{
-		fields.Text{
-			Label:   "Enter URL",
-			Name:    "url",
-			Model:   &u.UrlModel,
-			Err:     &u.UrlErr,
-			Norm:    &u.UrlNorm,
-			MinChar: 10,
-			MaxChar: 1000,
-		},
+		u.UrlField(),
 	}
 }
 
@@ -52,7 +38,15 @@ func (u *UrlForm) UrlErrHtml() html.HTML {
 }
 
 func (u *UrlForm) UrlField() fields.Text {
-	return u.fields[0].(fields.Text)
+	return fields.Text{
+		Label:   "Enter URL",
+		Name:    "url",
+		Model:   &u.UrlModel,
+		Err:     &u.UrlErr,
+		Norm:    &u.UrlNorm,
+		MinChar: 10,
+		MaxChar: 1000,
+	}
 }
 
 func (u *UrlForm) UrlFieldValid() bool {

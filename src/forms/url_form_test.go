@@ -23,7 +23,7 @@ func TestUrlForm(t *testing.T) {
 			output := string(testSubject.GetHtml())
 
 			So(strings.Index(output, `value="http://www.example.com"`), ShouldNotEqual, -1)
-			So(strings.Index(output, `maxlenght="1000"`), ShouldNotEqual, -1)
+			So(strings.Index(output, `maxlength="1000"`), ShouldNotEqual, -1)
 			So(strings.Index(output, `for="urlFormHtml-url"`), ShouldNotEqual, -1)
 			So(strings.Index(output, `>Enter URL:</label>`), ShouldNotEqual, -1)
 			So(strings.Index(output, `<span class="help-block">I am UrlError</span>`), ShouldNotEqual, -1)

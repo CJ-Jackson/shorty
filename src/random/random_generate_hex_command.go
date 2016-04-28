@@ -8,6 +8,7 @@ import (
 
 type randomGenerateHexCommand struct {
 	numOfBytes int64
+	random RandomInterface
 }
 
 func (rGHC *randomGenerateHexCommand) CommandConfigure(c *cli.Command) {
@@ -21,9 +22,9 @@ func (rGHC *randomGenerateHexCommand) CommandConfigure(c *cli.Command) {
 }
 
 func (rGHC *randomGenerateHexCommand) CommandExecute() {
-	fmt.Println((Random{}).GenerateHex(int(rGHC.numOfBytes)))
+	fmt.Println(rGHC.random.GenerateHex(int(rGHC.numOfBytes)))
 }
 
 func init() {
-	cli.RegisterCommand(&randomGenerateHexCommand{})
+	cli.RegisterCommand(&randomGenerateHexCommand{random: Random{}})
 }
