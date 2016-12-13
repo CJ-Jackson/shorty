@@ -66,7 +66,7 @@ Just give that a try, it's awesome.
 
 ## Demo
 
-Can be found at https://shorty.cj-jackson.com
+Can be found at https://shorty.cj-jackson.com (It's offline)
 
 ## Installation
 
